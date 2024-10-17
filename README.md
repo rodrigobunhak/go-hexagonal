@@ -28,5 +28,12 @@ go run main.go cli --help
 go run main.go cli -a=create -n="Product CLI 2" -p=28.0
 ```
 
+### Open webserver
+```
+go run main.go http
+```
 
-
+### Get a product
+```
+curl http://localhost:9000/product/{id}
+```
